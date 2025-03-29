@@ -1,0 +1,188 @@
+:root {
+    --color: (#f8f9fa);
+    --color2: (#e9ecef);
+    --color3: (#dee2e6);
+    --color4: (#ced4da);
+    --color5: (#adb5bd);
+    --color6: (#6c757d);
+    --color7: (#495057);
+    --color8: (#343a40);
+    --color9: (#212529);
+} 
+
+
+ /*
+ mirar las cajas
+ * {
+    outline: 2px solid rebeccapurple;
+}  */
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #e9ecef;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #dee2e6;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 0;
+}
+
+img {
+    width: 250px;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #343a40;
+    gap: 470px;
+}
+
+.header .logo {
+    font-family: 'Crimson Text', sans-serif;
+    font-size: 24px;
+    color: #dee2e6;
+}
+
+.center1 {
+    background-color: #343a40;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    color: #dee2e6;
+}
+
+.center1 img {
+    width: auto;
+    height: 300px;
+}
+
+
+.button-top button {
+    background: radial-gradient(
+        circle at 5% 70%,
+        #fed373 1%,
+        #f15245 30%,
+        #d92e7f 62%,
+        #9b36b7 75%,
+        #515ecf); /* Green */
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: start;
+    text-decoration: none;
+    display: flex;
+    font-size: 20px;
+    align-content: start;
+    gap: 10px;
+    transition: all ease-in-out 0.2s;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.button-top button:hover {
+    cursor: pointer;
+    transform: translate(0px, -5px);
+}
+.text {
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 23px;
+}
+.center2-title {
+    justify-content: center;
+    display: flex;
+}
+
+.center2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.cards {
+    width: 300px;
+    height: 450px;
+    border: 2px solid #343a40;
+    background-color: #adb5bd;
+}
+
+.cards img {
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.cards p {
+    padding: 25px;
+}
+
+.imagenes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+
+.center3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #adb5bd;
+    margin-top: 100px;
+    margin-bottom: 100px; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.frases {
+    font-size: 30px;
+    font-weight: 100;
+    width: 500px;
+    height: 100px;
+}
+
+.container-mencion {
+    display: flex;
+    width: 500px;
+    justify-content: flex-end;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info2 {
+    box-sizing: border-box;
+    display: flex;
+    background-color: #343a40;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 150px;
+    border-radius: 10px;
+    color: #dee2e6;
+}
